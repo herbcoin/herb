@@ -1,0 +1,26 @@
+# /etc/conf.d/herbd: config file for /etc/init.d/herbd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/herb/herb.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/herbd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/herbd.pid"
+
+# Where to write herbd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/herbd"
+
+# User and group to own herbd process
+#BITCOIND_USER="herb"
+#BITCOIND_GROUP="herb"
+
+# Path to herbd executable
+#BITCOIND_BIN="/usr/bin/herbd"
+
+# Nice value to run herbd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

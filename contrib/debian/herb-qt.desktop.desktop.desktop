@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HERB
+Comment=HERB P2P Cryptocurrency
+Exec=herb-qt %u
+Terminal=false
+Type=Application
+Icon=herb128
+MimeType=x-scheme-handler/herb;
+Categories=Office;Finance;
+Name[en_US]=herb-qt.desktop.desktop

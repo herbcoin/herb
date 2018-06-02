@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/herb_bg.qm</file>
+        <file alias="de">locale/herb_de.qm</file>
+        <file alias="en">locale/herb_en.qm</file>
+        <file alias="es">locale/herb_es.qm</file>
+        <file alias="fi">locale/herb_fi.qm</file>
+        <file alias="fr">locale/herb_fr.qm</file>
+        <file alias="it">locale/herb_it.qm</file>
+        <file alias="ja">locale/herb_ja.qm</file>
+        <file alias="pl">locale/herb_pl.qm</file>
+        <file alias="pt">locale/herb_pt.qm</file>
+        <file alias="ru">locale/herb_ru.qm</file>
+        <file alias="sk">locale/herb_sk.qm</file>
+        <file alias="sv">locale/herb_sv.qm</file>
+        <file alias="vi">locale/herb_vi.qm</file>
+        <file alias="zh_CN">locale/herb_zh_CN.qm</file>
+        <file alias="zh_TW">locale/herb_zh_TW.qm</file>
+    </qresource>
+</RCC>

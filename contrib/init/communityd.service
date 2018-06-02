@@ -1,0 +1,26 @@
+[Unit]
+Description=COMMUNITY's distributed currency daemon
+After=network.target
+
+[Service]
+User=community
+Group=community
+
+Type=forking
+PIDFile=/var/lib/communityd/communityd.pid
+
+ExecStart=/usr/bin/communityd -daemon -pid=/var/lib/communityd/communityd.pid \
+          -conf=/etc/community/community.conf -datadir=/var/lib/communityd
+
+ExecStop=-/usr/bin/community-cli -conf=/etc/community/community.conf \
+         -datadir=/var/lib/communityd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
